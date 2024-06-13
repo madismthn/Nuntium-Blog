@@ -1,0 +1,46 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.leftNav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.rightNav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.logo {
+  width: 180px;
+  height: 60px;
+}
+
+.searchBtn {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #fff;
+  background-image: url("../../assets/search.png");
+  background-size: cover;
+}
+
+.loginBtn {
+  cursor: pointer;
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid black;
+  font-size: 20px;
+}
